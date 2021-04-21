@@ -9,7 +9,7 @@ import tarfile
 from sklearn import preprocessing
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.model_selection import StratifiedKFold
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 import math
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import StratifiedKFold
@@ -17,7 +17,7 @@ from sklearn.utils.class_weight import compute_class_weight
 import tensorflow_addons as tfa
 import tensorflow as tf
 from tensorflow import keras
-from keras.utils import plot_model
+from tensorflow.keras.utils import plot_model
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.signal import butter, lfilter, filtfilt
