@@ -1,3 +1,6 @@
+*.h5
+*.csv
+*.png
 *.hea
 *.mat
 *__pycache__
